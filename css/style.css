@@ -81,6 +81,21 @@ input[type="color"]{
     padding: 0 5px;
 }
 
+input[type="tel"],
+input[type="file"]{
+    margin-bottom: 0;
+}
+
+small{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+input:focus{
+    border-color: cornflowerblue;
+    outline: none;
+}
+
 input:invalid, select:invalid, textarea:invalid{
     border-color: red;
 }
